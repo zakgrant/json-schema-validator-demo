@@ -1,0 +1,13 @@
+{
+    "id": "http://localhost:8070/json/base-schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Base Schema",
+    "description": "Base schema from which all others are born",
+    "type": "object",
+    "properties": {
+        "meta": {},
+        "features": { "$ref" : "/features-schema.json#" }
+    },
+    "additionalProperties": false,
+    "required": [ "features" ]
+}

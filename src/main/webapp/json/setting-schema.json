@@ -1,0 +1,23 @@
+{
+    "id": "/setting-schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Setting Schema",
+    "description": "Schema for setting",
+    "type": "object",
+    "properties": {
+      "localValue": {
+        "type": "string"
+      },
+      "precedence": {
+        "type": "string"
+      },
+      "effectiveValue": {
+        "type": "string"
+      },
+      "effectiveValueSource": {
+        "type": "string"
+      }
+    },
+    "required": ["localValue", "precedence", "effectiveValue", "effectiveValueSource"], 
+    "additionalProperties": false
+}

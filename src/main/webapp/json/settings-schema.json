@@ -1,0 +1,11 @@
+{
+    "id": "/settings-schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Settings Schema",
+    "description": "Schema for settings",
+    "type": "object",
+    "patternProperties": {
+        "^([a-zA-Z|@|!|_]+)$": { "$ref" : "/setting-schema.json#" }
+    },
+    "additionalProperties": false
+}

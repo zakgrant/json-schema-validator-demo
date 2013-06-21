@@ -1,0 +1,12 @@
+{
+    "id": "/feature-schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Feature Schema",
+    "description": "Schema for Feature",
+    "type": "object",
+    "properties": {
+        "settings": { "$ref" : "/settings-schema.json#" }
+    },
+    "additionalProperties": false,
+    "required": [ "settings" ]
+}
